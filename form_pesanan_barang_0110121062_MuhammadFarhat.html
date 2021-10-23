@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Barang</title>
+</head>
+<body style="max-width: 1050px; border: 1px solid black; margin: auto;">
+    <br>
+    <br>
+    <header style="max-width: 900px; border: 1px solid black; margin: auto;">
+      <nav>
+        <ul style="display: flex; list-style: none; margin-left: 20px;">
+          <li style="margin-right: 10px;"><b>Home</b></li>
+          <li style="margin-right: 70px;"> | </li>
+          <li style="margin-right: 10px;"><b>Generate Link</b></li>
+          <li style="margin-right: 70px;"> | </li>
+          <li style="margin-right: 10px;"><b>Transaction History</b></li>
+          <li style="margin-right: 70px;"> | </li>
+          <li style="margin-right: 10px;"><b>Policy</b></li>
+          <li style="margin-right: 70px;"> | </li>
+          <li style="margin-right: 10px;"><b>Logout</b></li>
+          <li style="margin-right: 70px;"></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main style="display: flex; margin-left: 30px;">
+      <div style="width: 25%; float: left;">
+        <br>
+        <img src="https://pict-b.sindonews.net/dyn/620/pena/news/2021/01/01/121/287054/ayo-banyak-berdoa-ini-motormotor-keren-yang-semoga-rilis-di-indonesia-2021-yog.jpg" style=" padding-bottom: 0px; padding: 45px;" alt="motor" width="230" height="200">
+        <form action="#">
+          <button style="margin-left: 45px;">Upload Picture</button>
+        </form>
+      </div>
+
+      <div>
+        <table style="margin-left: 35px; margin-top: 30px;">
+          <tr style="margin-bottom: 20px;">
+            <td><b>Title here :</b></td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td><b>Description :</b></td>
+            <td><textarea name="area" id="text" cols="40" rows="6"></textarea></td>
+          </tr>
+          <tr>
+            <td><b>Account Number :</b></td>
+            <td><input type="number" name="Account" id="angka"></td>
+          </tr>
+          <tr>
+            <td><b>Bank :</b></td>
+            <td><datalist id="motor">
+              <option value="HSBC"></option>
+              <option value="BNI"></option>
+              <option value="BRI"></option>
+              <option value="BCA"></option>
+              <option value="CIMB NIAGA"></option>
+            </datalist><input type="text" list="motor" name="motorcycle"></td>
+          </tr>
+          <tr>
+            <td><b>Account Holder :</b></td>
+            <td><input type="text" placeholder="Name Here"></td>
+          </tr>
+          <tr>
+            <td><b>Transaction :</b></td>
+            <td><select name="Transaction" size="1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              </select></td>
+          </tr>
+        </table>
+        <div style="margin-left: 128px;">
+        <a style="margin-left: 40px;"> * if the transaction is for 3 person, choose 3 from the drop-down list</a>
+          </div>
+
+          <div style="margin-left: 165px; margin-top: 10px;">
+            <form action="checbox" style="color:forestgreen">
+              <input type="checkbox">
+              <label id="1">Send to Mobile Phone</label><br>
+              <input type="checkbox">
+              <label id="2">Send to Email</label>
+            </form>
+          </div>
+
+          <table style="margin-left: 4px;">
+            <tr>
+              <td><b>Send to Mobile Phone :</b></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td><b>Send to Email :</b></td>
+              <td><input type="text"></td>
+            </tr>
+          </table>
+          <br>
+          <br>
+
+          <button onclick="alert(Succesfull)" style="background-color: green; color: white; margin-left: 170px; margin-bottom: 40px;">Generate Nabr Link</button>
+      </div>
+    </main>
+</body>
+</html>
