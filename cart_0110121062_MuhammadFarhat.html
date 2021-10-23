@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart MuhammadFarhat.com</title>
+  <style>
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  } 
+  </style>
+</head>
+<body style="width: 70%; height: 100%; border: 1px solid black; margin: auto;">
+  <header style="background-color: gainsboro; border-bottom: 1px solid black;">
+    <nav style="display: flex; gap: 10px; padding: 10px 20px; margin-left: 20px; margin-right: 20px;">
+      <ul style="margin-right: 50px; display: flex; list-style-type: none;">
+        <li>
+          <a style="text-decoration: none; font-weight: bolder;" href="">■farhatmuhammad.com</a>
+        </li>
+      </ul>
+
+      <ul style="display: flex; list-style-type: none; gap: 10px;">
+        <li> <!-- Home --> 
+          <a style="text-decoration: none;" href="/"><u>Home</u></a> |
+        </li> 
+        <li> <!--- Current -->
+          <a style="text-decoration: none;" href="/events"><u>Current Events</u></a> |
+        </li> 
+        <li> <!-- Contact -->
+          <a style="text-decoration: none;" href="/contact"><u>Contact Us</u></a>
+        </li> 
+      </ul>
+
+      <ul style="margin-left: auto; display: flex; list-style: none; gap: 10px;">
+        <li>
+          <i class="bi bi-search"></i>
+        </li>
+        <li style="display: flex; gap: 5px; font-weight: bolder;">
+          <img src="cart/search--v1.png" alt="search--v1"/>
+          <img src="cart/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+          <p>Cart(1)</p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="display: flex; gap: 20px; margin-top: 10px; padding: 10px;" class="container">
+    <main style="width: 60%;">
+      <h1>Your cart</h1>
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="border-top: 1px solid black; border-bottom: 1px solid black;">
+            <td style="font-weight: bold;" class="col-head">Item</td>
+            <td style="font-weight: bold;" class="col-head">Price</td>
+            <td style="font-weight: bold;" class="col-head">Quantity</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="display: flex; align-items: center;" class="img-tshirt">
+              <img width="200" src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/9/9/d0d4989a-b2ae-4272-9521-1b0c4be22d3d.jpg" alt="tshirt">
+              <p style="font-weight: bold;">Tshirt <br> Size: Large</p>
+            </td>
+            <td>
+              <b>Rp.59000</b>
+            </td>
+            <td>
+              <select>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select>
+            </td>
+          </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td style="padding-left: 420px; border-top: 1px solid black; border-bottom: 1px solid black;" class="col-head" colspan="3"><b>Subtotal:</b> <b>Rp.59000</b></td>
+            </tr>
+          </tfoot>
+        </table>
+      </main>
+
+      <aside style="width: 30%; height: 50%; background-color: silver; display: grid; align-items: center; margin-right: 20px;">
+        <h2 style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; margin-top: 0px; margin-bottom: 5px;">Summary ( 1 item )</h2>
+        <table style="width: 100%; padding-bottom: 25px;">
+          <tr>
+            <td style="padding-left: 10px;"><b>Subtotal</b></td>
+            <td style="padding-right: 10px;"><b>Rp.59000</b></td>
+          </tr>
+          <tr>
+            <td style="padding-left: 10px;"><b>Shipping</b></td>
+            <td style="padding-right: 10px;"><b>-</b></td> 
+          </tr>
+          <tr>
+            <td style="padding-left: 10px;"><b>Est. Taxes</b></td>
+            <td style="padding-right: 10px;"><b>-</b></td>
+          </tr>
+          <tr>
+            <td colspan="2"><hr></td>
+          </tr>
+          <tr>
+            <td style="padding-left: 10px;"><b>Total</b></td>
+            <td style="padding-right: 10px;"><b>Rp.59000</b></td>
+          </tr>
+        </table>
+        <input style="background-color: rgba(50, 50, 255, 0.941);" type="submit" value="Checkout">
+      </aside>
+    </div>
+
+    <footer style="margin-top: 100px; border-top: 1px solid black; padding: 10px; display: grid; gap: 10px;">
+    <div style="display: flex; gap: 5px;" class="baris">
+      <a style="margin-right: 10px; font-weight: bolder;" href="">farhatmuhammad.com</a>
+      <a style="margin-right: 10px; font-weight: bold;" href=""><u>Category X</u></a>|
+      <a style="margin-right: 10px; font-weight: bold;" href=""><u>Category Y</u></a>|
+      <a style="margin-right: 10px; font-weight: bold;" href=""><u>Category Z</u></a> 
+      <a style="margin-left: auto;" href=""><b>Stay In Touch! Join our Newsletter</b></a>
+    </div>
+    <div style="display: flex; gap: 5px; " class="baris">
+      <img src="cart/visa.png" alt="visa"/>
+      <img src="cart/mastercard-credit-card.png" alt="mastercard-credit-card"/>
+      <img src="cart/amex.png" alt="amex"/>
+    <div style="display: flex; margin-left: auto;" class="input-subscribe">
+      <input type="text" placeholder="Enter Email" style="font-weight: bolder;">
+      <p style="background-color: gray;">Subscribe</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
