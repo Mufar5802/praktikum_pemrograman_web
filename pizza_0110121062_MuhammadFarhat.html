@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza MuhammadFarhat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body style="width: 50%; height: 50%; padding: 20px; background-color: white;">
+<fieldset>
+        <h1 style="padding-left: 10px; font-size: 20px; margin-top: 5px; margin-bottom: 5px;">Black Goose Bistro | Pizza-on-Demand</h1>
+        <p style="padding: 10px; padding-bottom: 0px;">Our 12"wood-fired pizzas are available for delivery. Build your 
+        <p style="padding: 10px;padding-bottom: 0px; padding-top: 0px;">costum pizza and we'll it within an hour.</p>
+        <br>
+        <p style="padding: 10px; padding-top: 0px;">Your Information</p>
+            <label style="padding: 10px;">Name: <input type="text" name="name"></label>
+            <br>
+            <label style="padding: 10px;">Adress: <input type="text" name="adress"></label>
+            <br>
+            <label style="padding: 10px;">Telephone Number: <input type="text" name="telephone number"></label>
+            <br>
+            <label style="padding: 10px;">Email: <input type="text" name="email"></label>
+            <br>
+            <p style="padding: 10px;">Delivery Instructions :</p>
+            <textarea id="instructions" cols="50" rows="5" placeholder="No more than 400 characters long" maxlength="400"></textarea>
+            <br>
+        <h2 style="padding-left: 10px; padding-top: 0px;">Design Your Dream Pizza:</h2>
+        <p style="padding-left: 10px; padding-top: 0px;">Pizza specs</p>
+        <p style="padding-left: 10px; padding-top: 0px;">Crust (Choose one):</p>
+        <ul style="list-style: none; padding-inline-start: 20px;">
+            <li>(  ) Classic white</li>
+            <li>(  ) Multigrain</li>
+            <li>(  ) Cheese-stuffed crust</li>
+            <li>(  ) Gluten-free</li>
+        </ul>
+        <p style="padding-left: 10px; padding-top: 0px;">Toppings (Choose as many as you want):</p>
+        <ul style="list-style: none; padding-inline-start: 20px;">
+            <li>[ X ] Red sauce</li>
+            <li>[   ] White sauce</li>
+            <li>[   ] Mozarella Cheese</li>
+            <li>[   ] Pepperoni</li>
+            <li>[   ] Mushrooms</li>
+            <li>[   ] Peppers</li>
+            <li>[   ] Anchovies</li>
+        </ul>
+        <div style="margin-top: 10px;">
+            <form method="post">
+        <p style="padding: 10px; padding-bottom: 0px;">Number</p>
+        <label style="padding: 10px;" id="pizza">How many pizzas:</label>
+            <input type="number" name="number" min="1" max="6" value="1" title="Qty" style="width: 25px;">
+            </form>
+        <a style="padding: 10px; text-decoration: none;" href=""></a>
+            <input type="button" value="Bring me a pizza!">
+            <input type="button" value="Reset" onclick="window.location.reload()">
+    </div>
+</fieldset>
+</body>
+</html>
